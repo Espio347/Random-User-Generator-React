@@ -1,0 +1,33 @@
+.profile-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 64px;
+  background-color: #f0ece5;
+  border: 2px transparent;
+  border-radius: 32px;
+  box-shadow: 8px 8px #27272738;
+  width: 128px;
+  height: 128px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+.image-box {
+  display: flex;
+  border: 1px transparent;
+  border-radius: 50%;
+}
+
+.text-dark {
+  color: #272727;
+}
